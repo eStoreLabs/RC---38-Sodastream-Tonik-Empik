@@ -1,18 +1,6 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'HurmeGeometricSans3-Bold';
-  src: local('HurmeGeometricSans3-Bold'),
-    url('../fonts/HurmeGeometricSans3-Bold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'HurmeGeometricSans3-Regular';
-  src: local('HurmeGeometricSans3-Regular'),
-    url('../fonts/HurmeGeometricSans3-Regular.woff2') format('woff2');
-}
-
-@font-face {
   font-family: 'HurmeGeometricSans3-Black';
   src: local('HurmeGeometricSans3-Black'),
     url('../fonts/HurmeGeometricSans3-Black.woff2') format('woff2');
@@ -24,9 +12,21 @@
     url('../fonts/HurmeGeometricSans3-Light.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'empikPro-Black';
+  src: local('empikPro-Black'),
+    url('../fonts/empikPro-Black.woff2') format('woff2');
+}
 
-$font-regular: 'HurmeGeometricSans3-Regular', sans-serif;
-$font-bold: 'HurmeGeometricSans3-Bold', sans-serif;
+@font-face {
+  font-family: 'empikPro-Book';
+  src: local('empikPro-Book'),
+    url('../fonts/empikPro-Book.woff2') format('woff2');
+}
+
+
+$font-regular: 'empikPro-Book', sans-serif;
+$font-bold: 'empikPro-Black', sans-serif;
 $font-black: 'HurmeGeometricSans3-Black', sans-serif;
 $font-light: 'HurmeGeometricSans3-Light', sans-serif;
 
@@ -81,7 +81,7 @@ $yellow-dark: #F7B800;
     text-align: center;
     position: relative;
     z-index: 1;
-    margin: 40px auto;
+    margin: 20px auto 40px;
     line-height: 1.3;
   }
 
@@ -298,6 +298,8 @@ $yellow-dark: #F7B800;
       gap: 40px;
       margin-bottom: 40px;
 
+
+
       .es-perfect__single {
         display: flex;
         flex-direction: column;
@@ -317,6 +319,10 @@ $yellow-dark: #F7B800;
         &-text {
           text-align: center;
           margin-top: 25px;
+        }
+
+        &:nth-child(2) {
+          width: 25%;
         }
       }
     }
@@ -798,7 +804,7 @@ $yellow-dark: #F7B800;
         }
 
         .es-one-soda__text {
-          width: 55%;
+          width: 65%;
         }
       }
     }
@@ -1132,7 +1138,7 @@ $yellow-dark: #F7B800;
           margin-right: -40px;
 
           .es-day__single-sun {
-            margin-bottom: 25px;
+            margin-bottom: 40px;
           }
 
           .es-day__single-text {
@@ -1167,7 +1173,7 @@ $yellow-dark: #F7B800;
           margin-left: -40px;
 
           .es-day__single-sun {
-            margin-bottom: 25px;
+            margin-bottom: 40px;
           }
 
           .es-day__single-text {
@@ -1230,7 +1236,7 @@ $yellow-dark: #F7B800;
     .es-day {
       &__wrapper {
         .es-day__wrapper-blue-background {
-          height: 135%;
+          height: 120%;
 
           .es-day__single-text {
             font-size: 16px;

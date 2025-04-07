@@ -1,12 +1,4 @@
 @font-face {
-  font-family: "HurmeGeometricSans3-Bold";
-  src: local("HurmeGeometricSans3-Bold"), url("../fonts/HurmeGeometricSans3-Bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HurmeGeometricSans3-Regular";
-  src: local("HurmeGeometricSans3-Regular"), url("../fonts/HurmeGeometricSans3-Regular.woff2") format("woff2");
-}
-@font-face {
   font-family: "HurmeGeometricSans3-Black";
   src: local("HurmeGeometricSans3-Black"), url("../fonts/HurmeGeometricSans3-Black.woff2") format("woff2");
 }
@@ -14,8 +6,16 @@
   font-family: "HurmeGeometricSans3-Light";
   src: local("HurmeGeometricSans3-Light"), url("../fonts/HurmeGeometricSans3-Light.woff2") format("woff2");
 }
+@font-face {
+  font-family: "empikPro-Black";
+  src: local("empikPro-Black"), url("../fonts/empikPro-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "empikPro-Book";
+  src: local("empikPro-Book"), url("../fonts/empikPro-Book.woff2") format("woff2");
+}
 #es-rc #es-rc-content {
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "empikPro-Book", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
@@ -47,18 +47,18 @@
 }
 #es-rc #es-rc-content .es-h2 {
   text-align: center;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
   font-size: 25px;
 }
 #es-rc #es-rc-content .es-text {
   text-align: center;
   position: relative;
   z-index: 1;
-  margin: 40px auto;
+  margin: 20px auto 40px;
   line-height: 1.3;
 }
 #es-rc #es-rc-content .es-bold {
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
 }
 #es-rc #es-rc-content .es-kv {
   position: relative;
@@ -86,7 +86,7 @@
   text-align: center;
 }
 #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-h1 {
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -94,7 +94,7 @@
   margin-top: 30px;
 }
 #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-kv__p--bold {
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
   margin-top: 25px;
 }
 #es-rc #es-rc-content .es-kv__wrapper .es-kv__right {
@@ -153,7 +153,7 @@
 }
 #es-rc #es-rc-content .es-change__wrapper .es-change__single-title {
   text-align: center;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
   margin-bottom: 50px;
 }
 #es-rc #es-rc-content .es-one-soda {
@@ -198,7 +198,7 @@
   max-width: 250px;
 }
 #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__wrapper .es-one-soda__single-title {
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
   font-size: 25px;
   margin-top: 20px;
 }
@@ -215,7 +215,7 @@
   margin-bottom: 30px;
 }
 #es-rc #es-rc-content .es-perfect__background-text {
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
   color: #E2D7CE;
   font-size: 110px;
   position: absolute;
@@ -254,6 +254,9 @@
   text-align: center;
   margin-top: 25px;
 }
+#es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single:nth-child(2) {
+  width: 25%;
+}
 #es-rc #es-rc-content .es-perfect__disclaimer {
   font-size: 13px;
   text-align: center;
@@ -276,7 +279,7 @@
   background-color: #FBEA71;
   border: 1px solid #FBEA71;
   border-radius: 50%;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
   text-align: center;
   width: 320px;
   height: 320px;
@@ -568,7 +571,7 @@
   }
   #es-rc #es-rc-content .es-change__wrapper .es-change__single-title {
     text-align: center;
-    font-family: "HurmeGeometricSans3-Bold", sans-serif;
+    font-family: "empikPro-Black", sans-serif;
     margin-bottom: 50px;
     font-size: 16px;
     max-width: 180px;
@@ -625,7 +628,7 @@
     margin-top: 20px;
   }
   #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__text {
-    width: 55%;
+    width: 65%;
   }
   #es-rc #es-rc-content .es-perfect__text {
     width: 50%;
@@ -875,7 +878,7 @@
     margin-right: -40px;
   }
   #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(2) .es-day__single-sun {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
   }
   #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(2) .es-day__single-text {
     margin-bottom: 70px;
@@ -902,7 +905,7 @@
     margin-left: -40px;
   }
   #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(4) .es-day__single-sun {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
   }
   #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(4) .es-day__single-text {
     margin-bottom: 50px;
@@ -943,10 +946,12 @@
     margin-right: -90px;
   }
   #es-rc #es-rc-content .es-day__wrapper .es-day__wrapper-blue-background {
-    height: 135%;
+    height: 120%;
   }
   #es-rc #es-rc-content .es-day__wrapper .es-day__wrapper-blue-background .es-day__single-text {
     font-size: 16px;
     max-width: 300px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
