@@ -254,9 +254,6 @@
   text-align: center;
   margin-top: 25px;
 }
-#es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single:nth-child(2) {
-  width: 25%;
-}
 #es-rc #es-rc-content .es-perfect__disclaimer {
   font-size: 13px;
   text-align: center;
@@ -641,6 +638,9 @@
   }
   #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single {
     width: 20%;
+  }
+  #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single:nth-child(2) {
+    width: 25%;
   }
   #es-rc #es-rc-content .es-bottle {
     margin-top: 40px;

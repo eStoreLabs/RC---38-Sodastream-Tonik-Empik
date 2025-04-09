@@ -321,9 +321,6 @@ $yellow-dark: #F7B800;
           margin-top: 25px;
         }
 
-        &:nth-child(2) {
-          width: 25%;
-        }
       }
     }
 
@@ -822,6 +819,10 @@ $yellow-dark: #F7B800;
 
         .es-perfect__single {
           width: 20%;
+
+          &:nth-child(2) {
+            width: 25%;
+          }
         }
       }
     }
