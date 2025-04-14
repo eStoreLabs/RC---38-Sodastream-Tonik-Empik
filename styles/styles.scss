@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'HurmeGeometricSans3-Black';
-  src: local('HurmeGeometricSans3-Black'),
-    url('../fonts/HurmeGeometricSans3-Black.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'HurmeGeometricSans3-Light';
-  src: local('HurmeGeometricSans3-Light'),
-    url('../fonts/HurmeGeometricSans3-Light.woff2') format('woff2');
-}
-
-@font-face {
   font-family: 'empikPro-Black';
   src: local('empikPro-Black'),
     url('../fonts/empikPro-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'empikPro-Light';
+  src: local('empikPro-Light'),
+    url('../fonts/empikPro-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'empikPro-Bold';
+  src: local('empikPro-Bold'),
+    url('../fonts/empikPro-Bold.woff2') format('woff2');
 }
 
 @font-face {
@@ -26,9 +26,9 @@
 
 
 $font-regular: 'empikPro-Book', sans-serif;
-$font-bold: 'empikPro-Black', sans-serif;
-$font-black: 'HurmeGeometricSans3-Black', sans-serif;
-$font-light: 'HurmeGeometricSans3-Light', sans-serif;
+$font-bold: 'empikPro-Bold', sans-serif;
+$font-black: 'empikPro-Black', sans-serif;
+$font-light: 'empikPro-Light', sans-serif;
 
 $blue: #13294b;
 $light: #e5dcd3;
