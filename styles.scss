@@ -34,6 +34,7 @@ $blue: #13294b;
 $light: #e5dcd3;
 $yellow: #FBEA71;
 $yellow-dark: #F7B800;
+// $white: #ffffff;
 
 
 #es-rc #es-rc-content {
@@ -41,12 +42,14 @@ $yellow-dark: #F7B800;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.2;
-  max-width: 1200px;
+  max-width: 830px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
   color: $blue;
   background: #EBE6E1;
+  container-type: inline-size;
+  container-name: es-rc-content;
 
   * {
     -webkit-box-sizing: border-box;
@@ -75,6 +78,7 @@ $yellow-dark: #F7B800;
     text-align: center;
     font-family: $font-bold;
     font-size: 25px;
+    color: $blue;
   }
 
   .es-text {
@@ -117,14 +121,15 @@ $yellow-dark: #F7B800;
         text-align: center;
 
         .es-h1 {
-          font-family: $font-bold;
+          font-family: $font-black; 
           font-size: 30px;
           text-transform: uppercase;
-
+          color: $blue;
         }
 
         .es-kv__p {
           margin-top: 30px;
+          color: $blue;
         }
 
         .es-kv__p--bold {
@@ -150,6 +155,11 @@ $yellow-dark: #F7B800;
     z-index: 0;
     margin-top: 25px;
     margin-bottom: 45px;
+    // color: $white;
+
+    .es-h2 {
+      // color: $white;
+    }
 
     &__background {
       background-color: $yellow;
@@ -216,6 +226,7 @@ $yellow-dark: #F7B800;
       text-transform: uppercase;
       font-family: $font-black;
       font-size: 25px;
+      color: $blue;
     }
 
     &__wrapper-outer {
@@ -227,7 +238,7 @@ $yellow-dark: #F7B800;
         position: absolute;
         width: 140%;
         height: 110%;
-        top: -5%;
+        top: -1%;
         left: -20%;
         right: 0;
         z-index: 0;
@@ -333,6 +344,7 @@ $yellow-dark: #F7B800;
   .es-bottle {
     margin-top: 40px;
     margin-bottom: 20px;
+    // color: $white;
 
     &__wrapper {
       display: flex;
@@ -356,6 +368,7 @@ $yellow-dark: #F7B800;
 
           .es-bottle__h2 {
             font-size: 30px;
+            // color: $white;
           }
         }
 
@@ -381,6 +394,7 @@ $yellow-dark: #F7B800;
 
             .es-bottle__text {
               padding: 0 35px;
+              // color: $white;
             }
           }
         }
@@ -524,6 +538,10 @@ $yellow-dark: #F7B800;
     text-align: center;
     z-index: 1;
 
+    .es-h2 {
+      color: #ebe6e1;
+    }
+
     &__background {
       background-color: $blue;
       position: absolute;
@@ -585,6 +603,7 @@ $yellow-dark: #F7B800;
           .es-adventure__top-row__single-text {
             margin-bottom: 20px;
             margin-top: 20px;
+            min-height: 7em;
           }
         }
       }
@@ -637,11 +656,16 @@ $yellow-dark: #F7B800;
   }
 }
 
-@media (min-width: 576px) {
+@container es-rc-content (min-width: 576px) {
   #es-rc #es-rc-content {
     .es-one-soda {
       &__wrapper-outer {
         margin-top: -25px;
+      }
+      .es-one-soda__background {
+
+        top: -5%;
+
       }
     }
 
@@ -654,7 +678,7 @@ $yellow-dark: #F7B800;
   }
 }
 
-@media (min-width: 768px) {
+@container es-rc-content (min-width: 768px) {
   #es-rc #es-rc-content {
     .es-kv {
       padding-left: 60px;
@@ -917,7 +941,7 @@ $yellow-dark: #F7B800;
   }
 }
 
-@media (min-width: 980px) {
+@container es-rc-content (min-width: 980px) {
   #es-rc #es-rc-content {
     .es-kv {
       &__wrapper {
@@ -1244,7 +1268,7 @@ $yellow-dark: #F7B800;
   }
 }
 
-@media (min-width: 1100px) {
+@container es-rc-content (min-width: 1100px) {
   #es-rc #es-rc-content {
     .es-bottle__wrapper {
       .es-bottle__single {
