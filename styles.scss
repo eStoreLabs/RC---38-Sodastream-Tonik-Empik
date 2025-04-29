@@ -48,8 +48,8 @@ $yellow-dark: #F7B800;
   overflow: hidden;
   color: $blue;
   background: #EBE6E1;
-  max-width: 100%;
-  width: auto;
+  // max-width: 100%;
+  // width: auto;
 
   * {
     -webkit-box-sizing: border-box;
@@ -865,6 +865,15 @@ $yellow-dark: #F7B800;
         gap: unset;
 
         .es-bottle__single {
+
+          .es-bottle__circle1 {
+            display: block!important;
+          }
+  
+          .es-bottle__circle2 {
+            display: block!important;
+          }
+
           &-wrapper {
             justify-content: center;
             align-items: center;
@@ -976,7 +985,7 @@ $yellow-dark: #F7B800;
 
     .es-change {
       &__circle1 {
-        display: block;
+        display: block!important;
         position: absolute;
         left: 0;
         top: -50px;
@@ -995,7 +1004,7 @@ $yellow-dark: #F7B800;
       }
 
       &__circle2 {
-        display: block;
+        display: block!important;
         position: absolute;
         left: 30%;
         bottom: 35%;
@@ -1004,7 +1013,7 @@ $yellow-dark: #F7B800;
       }
 
       &__circle3 {
-        display: block;
+        display: block!important;
         position: absolute;
         right: 0;
         bottom: 25%;
@@ -1053,11 +1062,11 @@ $yellow-dark: #F7B800;
         }
 
         .es-bottle__circle1 {
-          display: block;
+          display: block!important;
         }
 
         .es-bottle__circle2 {
-          display: block;
+          display: block!important;
         }
       }
     }
@@ -1254,7 +1263,7 @@ $yellow-dark: #F7B800;
 
     .es-adventure__wrapper {
       .es-adventure__circle1 {
-        display: block;
+        display: block!important;
         width: 140px;
         position: absolute;
         top: 26%;
@@ -1263,7 +1272,7 @@ $yellow-dark: #F7B800;
       }
 
       .es-adventure__circle2 {
-        display: block;
+        display: block!important;
         width: 110px;
         position: absolute;
         top: 52%;
