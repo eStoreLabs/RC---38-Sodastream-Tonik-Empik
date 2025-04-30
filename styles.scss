@@ -136,6 +136,7 @@ $yellow-dark: #F7B800;
         .es-kv__p--bold {
           font-family: $font-bold;
           margin-top: 25px;
+          color: $blue;
         }
       }
 
@@ -285,6 +286,7 @@ $yellow-dark: #F7B800;
     &__text {
       width: 80%;
       margin-bottom: 30px;
+      color: $blue;
     }
 
     &__background-text {
@@ -331,6 +333,7 @@ $yellow-dark: #F7B800;
         &-text {
           text-align: center;
           margin-top: 25px;
+          color: $blue;
         }
 
       }
@@ -369,7 +372,7 @@ $yellow-dark: #F7B800;
 
           .es-bottle__h2 {
             font-size: 30px;
-            // color: $white;
+            color: $blue;
           }
         }
 
@@ -395,7 +398,7 @@ $yellow-dark: #F7B800;
 
             .es-bottle__text {
               padding: 0 35px;
-              // color: $white;
+              color: $blue;
             }
           }
         }
